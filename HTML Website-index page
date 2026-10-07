@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Technical Requirements -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Tags -->
+    <title>HTML Website</title>
+    <meta name="description" content="HTML Website with multiple pages regarding my portfolio">
+    <link rel="canonical" href="https://example.com">
+    
+    <!-- Robots Control (Optional) -->
+    <meta name="robots" content="index, follow">
+    
+     <!-- Social Media Previews -->
+    <meta property="og:title" content="HTML Website">
+    <meta property="og:description" content="Explore the professional journey, core skills, and portfolio projects of [Your Name], [Your Profession/Role].">
+    <meta property="og:image" content="https://example.com">
+    <title>HTML Web page</title>
+    <!-- 1. Embed the Google Fonts link here -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Delicious+Hand+Drawn&display=swap" rel="stylesheet">
+  <style>
+     /* Header Container Layout */
+        header {
+            display: flex;
+            justify-content: space-between; /* Pushes logo to left, nav links to right */
+            align-items: center;        /* Centers items vertically in the line */
+            padding: 5px 5px;
+            background-color: none;
+            color: none;
+        }
+    /* Logo & Text */
+    .logo-container {
+            display: flex;
+            align-items: center;        /* Aligns logo image and text vertically */
+            gap: 10px;                  /* Spacing between the image and the text */
+        }
+    /* Target the unordered list inside the <nav> element */
+    nav ul {
+      display:flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      gap: 0;
+      background-color: none;
+      overflow: hidden; /* Clears floats if you use floating items */
+    }
+
+    /* Make the list items display horizontally */
+    nav li {
+      float: right;
+    }
+
+    /* Style the navigation links */
+    nav a {
+      display: block;
+      color: black;
+      text-align: right;
+      padding: 5px 10px;
+      text-decoration: none;
+    }
+
+    /* Add a hover effect */
+    nav a:hover {
+      background-color:#faf5f5 ;
+    }
+  </style>
+</head>
+<body>
+   <div style="border:2px solid black; padding:5px;">  
+<header>  
+     <!--logo section -->
+  <div class="logo-container">
+     <img src="images.png" alt="logo" class="logo" width="10" height="10">
+     <span class="brand-name"> your name </span>
+</div>
+<nav class="navbar">
+    <ul class="nav-links">
+      <li><a href="index.html"> Home / </a></li>
+      <li><a href="projects.html">Projects / </a></li>
+      <li><a href="articles.html">Articles /</a></li>
+      <li><a href="contact.html">Contact </a></li>
+    </ul>
+</nav>
+</header>
+    <!-- 2. Apply the font with a fallback (like cursive or sans-serif) -->
+    <h1 style="font-family: 'Delicious Hand Drawn',cursive; text-align:center;">Frontend Developer</h1>
+    <p style="color:grey; text-align:center; font-size:13px;"> html only with proper layout, no styling </p> <br> <br> <br>
+</div>
+    <div style="border:2px solid black; padding:5px;">
+    <h1 style="font-family: 'Delicious Hand Drawn',cursive; text-align:center;"> Education </h1>
+     <p style="font-size:20px; text-align:justify;"> Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.<br><br> Courses I took:<br><br> -Object Oriented Programming<br>-Data Structures and Algorithms<br>-Web Engineering<br>-Artificial Intelligence<br>-Human Computer Interaction<br>-Computer Graphics<br>-Database management Systems<br>-Distributed Database Systems<br>-Discreet Mathematics<br> </p>
+</div>
+<footer>
+    <div style="border:2px solid black; padding:5px;">
+    <h1 style="font-family: 'Delicious Hand Drawn',cursive; text-align:center;"> Reviews from my Teacher</h1>
+    <div class="container" >
+      <div class="box left-box">
+         <p> Left p</p>
+      </div>
+      <div class="box center-box">
+         <p> Right p</p>
+      </div>
+    </div>
+   
+</footer>
+</body>
+</html>
