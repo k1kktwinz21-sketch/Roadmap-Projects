@@ -35,3 +35,9 @@ Add SEO meta tags to the website.
 You can use the following mockup example to create the structure of the website (remember, you are not required to style the website, only focus on the structure that you can style later):
 <img width="1366" height="1816" alt="image" src="https://github.com/user-attachments/assets/c8cfeaaf-1369-4623-9128-3dcb976e73c0" />
 Project URL - https://roadmap.sh/projects/basic-html-website
+
+3) In this project, you are required to create a simple component for a website that displays a changelog. A changelog is a log or record of all notable changes made to a project or software. It is often used to keep users informed about the latest updates and improvements.
+
+The goal of this project is to teach you about positioning and layout in CSS. You will create a simple HTML structure and use CSS to style it into a visually appealing and responsive changelog component. Given below is a rough mockup of the changelog component you need to create.
+<img width="2624" height="2724" alt="image" src="https://github.com/user-attachments/assets/d5a8d26b-ef62-45aa-96b6-098eb4b9eb50" />
+Project URL - https://roadmap.sh/projects/changelog-component
