@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <!-- Technical Requirements -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <!-- Primary SEO Tags -->
+    <title>Testimonial-Cards</title>
+    <meta name="description" content="Testimonials">
+    <link rel="canonical" href="https://example.com">
+  
+    <!-- Robots Control (Optional) -->
+    <meta name="robots" content="index, follow">
+  
+     <!-- Social Media Previews -->
+    <meta property="og:title" content="Testimonial-Cards">
+    <meta property="og:description" content="Testimonials">
+    <meta property="og:image" content="https://example.com">
+    <title>Testimonial-Cards</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 20px; /* Space between the boxes */
+        }
+
+        .box {
+            flex: 1; /* Makes all boxes equal width */
+            padding: 8px;
+            background-color: transparent; 
+        }
+
+        .comment-bubble {
+            position: relative;
+            background: black;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: sans-serif;
+            margin-bottom: 20px; /* Replaces unstable <br> tags for spacing */
+        }
+
+        /* Creates the little triangle shape at the bottom of the bubble */
+        .comment-bubble::after {
+            content: '';
+            position: absolute;
+            bottom: -10px; /* Positions the triangle at the bottom */
+            left: 30px; /* Positions the triangle horizontally */
+            border-width: 10px 10px 0; /* Creates the triangle shape */
+            border-style: solid;
+            border-color: black transparent; /* Matches the bubble color */
+            display: block;
+            width: 0;
+        }
+
+        /* Profile alignment styling */
+        .profile-section {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .profile-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .profile-info .name {
+            margin: 0;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+
+        .profile-info .role {
+            margin: 2px 0 0 0;
+            font-size: 12px;
+            color: #888888;
+            font-family: sans-serif;
+        }
+        .container1 {
+            display: flex;
+            gap: 20px; /* Space between the boxes */
+        }
+
+        .box1 {
+            flex: 1; /* Makes all boxes equal width */
+            padding: 5px;
+            background-color: black; 
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Card 1 -->
+        <div class="box">
+            <div class="comment-bubble">
+                I have been solving all the project ideas on roadmap.sh and I am surprised how far I have come from where I started. <br><br> Highly recommended! 
+            </div> 
+            <div class="profile-section">
+                <img src="IMG_20261007_230722.jpg" class="profile-image" alt="Artem Jones">
+                <div class="profile-info">
+                    <h4 class="name">Artem Jones</h4>
+                    <p class="role">Junior Frontend Developer</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Card 2 (Fixed to mirror Card 1) -->
+        <div class="box">
+           <div style="border:2px solid black; padding:15px;border-radius:8px;">
+                Since starting my career in 2021, I have only followed one resource, roadmap.sh, it truly help me go from 0 to having a job and changing the financial trajectory of my family.
+            <br>
+            <div class="profile-section">
+                <img src="IMG_20261007_230722.jpg" class="profile-image" alt="Artem Jones">
+                <div class="profile-info">
+                    <h4 class="name">Artem Jones</h4>
+                    <p class="role">Junior Frontend Developer</p>
+                </div>
+               </div>
+            </div>             
+        </div>
+    </div>
+    <div class="container1">
+    <img src="IMG_20261007_230722.jpg" width="130px" height="130px" border-radius="8px">
+    <div class="box1">
+         <p style="color:white;font-size:12px;">⭐⭐⭐⭐⭐<br><b>Jackie Mackle</b><br><span style="color:grey;font-size:10px;">Engineering Manager</span><br><br>I find myself recommending roadmap.sh to all the internees or junior developers. It's a great way to skill up and grow in your career.</p>
+         </div>
+    </div>
+    </div>
+    </div>
+    <br>
+    <div style="border:2px solid black;padding:10px;border-radius:8px;">
+         roadmap.sh is an incredible resource. I was fortunate to discover it during my university days in 2018. Back then, it was just a single repository with three images. It's amazing to see how much impact it has had on milliona of lives since then.
+    </div>
+</body>
+</html>
