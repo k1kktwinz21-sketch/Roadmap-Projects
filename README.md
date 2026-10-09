@@ -27,3 +27,11 @@ OG tags for better social media sharing.
 A favicon linked in the head section.
 
 By completing this project, you'll gain a solid understanding of how to create a single-page CV using HTML, apply basic SEO principles, and prepare your webpage for future styling. This foundation will enable you to move on to styling the CV using CSS in subsequent projects. (https://roadmap.sh/projects/single-page-cv)
+4) In this project, you are required to create a bunch of testimonial cards. Testimonials are quotes or statements from satisfied customers or users, often used on websites to build credibility and trust.
+
+The goal of this project is to teach you about positioning and layout in CSS. Below is a rough mockup showing some testimonial cards. Each card is designed to help you understand different layout and positioning techniques.
+In this project, you are required to create a bunch of testimonial cards. Testimonials are quotes or statements from satisfied customers or users, often used on websites to build credibility and trust.
+
+The goal of this project is to teach you about positioning and layout in CSS. Below is a rough mockup showing some testimonial cards. Each card is designed to help you understand different layout and positioning techniques.
+<img width="2914" height="3637" alt="image" src="https://github.com/user-attachments/assets/e17e5cda-09d1-4545-ae6e-6fdcce454a6c" />
+Project URL - https://roadmap.sh/projects/testimonial-cards
