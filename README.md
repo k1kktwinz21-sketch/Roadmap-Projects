@@ -39,3 +39,6 @@ In this project, you are required to create a bunch of testimonial cards. Testim
 The goal of this project is to teach you about positioning and layout in CSS. Below is a rough mockup showing some testimonial cards. Each card is designed to help you understand different layout and positioning techniques.
 <img width="2914" height="3637" alt="image" src="https://github.com/user-attachments/assets/e17e5cda-09d1-4545-ae6e-6fdcce454a6c" />
 Project URL - https://roadmap.sh/projects/testimonial-cards
+5) In this project, you are required to create a simple datepicker UI using only HTML and CSS. It will not be a functional datepicker, but a static UI component that you can later enhance with JavaScript. The goal of this project is to help you practice positioning, layout, and styling techniques in CSS. Below is a rough mockup showing the datepicker UI you need to create.
+<img width="3341" height="1401" alt="image" src="https://github.com/user-attachments/assets/1f5e7df7-598b-40da-af51-1a4abcf9ab78" />
+Project URL - https://roadmap.sh/projects/datepicker-ui
