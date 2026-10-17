@@ -41,3 +41,7 @@ Project URL - https://roadmap.sh/projects/basic-html-website
 The goal of this project is to teach you about positioning and layout in CSS. You will create a simple HTML structure and use CSS to style it into a visually appealing and responsive changelog component. Given below is a rough mockup of the changelog component you need to create.
 <img width="2624" height="2724" alt="image" src="https://github.com/user-attachments/assets/d5a8d26b-ef62-45aa-96b6-098eb4b9eb50" />
 Project URL - https://roadmap.sh/projects/changelog-component
+
+4) In this project, you are required to create a bunch of testimonial cards. Testimonials are quotes or statements from satisfied customers or users, often used on websites to build credibility and trust. The goal of this project is to teach you about positioning and layout in CSS. Below is a rough mockup showing some testimonial cards. Each card is designed to help you understand different layout and positioning techniques.
+<img width="2914" height="3637" alt="image" src="https://github.com/user-attachments/assets/3d8514ff-9ad6-462d-a601-33d4a48b848c" />
+Project URL - https://roadmap.sh/projects/testimonial-cards
