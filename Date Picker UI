@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Date Picker UI</title>
+  <meta name="description" content="Date Picker UI">
+  <link rel="canonical" href="https://example.com">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Date Picker UI">
+  <meta property="og:description" content="Date Picker UI">
+  <meta property="og:image" content="https://example.com">
+ 
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background: pink;
+    }
+
+    .input-display {
+      border: 2px solid black;
+      padding: 8px 12px;
+      margin-bottom: 0px;
+      background: #fff;
+      font-family: monospace;
+      width: 273px;
+    }
+
+    .calendar-container {
+      width: 280px;
+      background: #fff;
+      border: 2px solid black;
+      padding: 8px;
+    }
+
+    .calendar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .calendar-grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 4px;
+      text-align: center;
+    }
+
+    .day-name {
+      font-weight: bold;
+      font-size: 0.85rem;
+      padding: 4px 0;
+    }
+
+    .date-cell {
+      padding: 8px 0;
+      cursor: pointer;
+    }
+
+    .date-cell:hover {
+      background: #eee;
+    }
+
+    /* Push Dec 1, 2022 to Thursday (column 5) */
+    .offset-thu {
+      grid-column-start: 5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="input-display">
+    dd/mm/yyyy | 𝄜
+  </div>
+
+  <div class="calendar-container">
+    <div class="calendar-header">
+      <button type="button">&lt;</button>
+      <span><b>December 2022</b></span>
+      <button type="button">&gt;</button>
+    </div>
+   
+    <div class="calendar-grid">
+      <div class="day-name">Sun</div>
+      <div class="day-name">Mon</div>
+      <div class="day-name">Tue</div>
+      <div class="day-name">Wed</div>
+      <div class="day-name">Thu</div>
+      <div class="day-name">Fri</div>
+      <div class="day-name">Sat</div>
+
+      <!-- Dec 1, 2022 starts on Thursday -->
+      <div class="date-cell offset-thu">1</div>
+      <div class="date-cell">2</div>
+      <div class="date-cell">3</div>
+      <div class="date-cell">4</div>
+      <div class="date-cell">5</div>
+      <div class="date-cell">6</div>
+      <div class="date-cell">7</div>
+      <div class="date-cell">8</div>
+      <div class="date-cell">9</div>
+      <div class="date-cell">10</div>
+      <div class="date-cell">11</div>
+      <div class="date-cell">12</div>
+      <div class="date-cell">13</div>
+      <div class="date-cell">14</div>
+      <div class="date-cell">15</div>
+      <div class="date-cell">16</div>
+      <div class="date-cell">17</div>
+      <div class="date-cell">18</div>
+      <div class="date-cell">19</div>
+      <div class="date-cell">20</div>
+      <div class="date-cell">21</div>
+      <div class="date-cell">22</div>
+      <div class="date-cell">23</div>
+      <div class="date-cell">24</div>
+      <div class="date-cell">25</div>
+      <div class="date-cell">26</div>
+      <div class="date-cell">27</div>
+      <div class="date-cell">28</div>
+      <div class="date-cell">29</div>
+      <div class="date-cell">30</div>
+      <div class="date-cell">31</div>
+    </div>
+  </div>
+
+  <p style="text-align:center; margin-top: 15px;"><em>No JavaScript Involved, done with HTML and CSS.</em></p>
+
+</body>
+</html>
