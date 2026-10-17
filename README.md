@@ -35,10 +35,11 @@ The goal of this project is to teach you about positioning and layout in CSS. Yo
 Project URL - https://roadmap.sh/projects/changelog-component
 4) In this project, you are required to create a bunch of testimonial cards. Testimonials are quotes or statements from satisfied customers or users, often used on websites to build credibility and trust.
 The goal of this project is to teach you about positioning and layout in CSS. Below is a rough mockup showing some testimonial cards. Each card is designed to help you understand different layout and positioning techniques.
-In this project, you are required to create a bunch of testimonial cards. Testimonials are quotes or statements from satisfied customers or users, often used on websites to build credibility and trust.
-The goal of this project is to teach you about positioning and layout in CSS. Below is a rough mockup showing some testimonial cards. Each card is designed to help you understand different layout and positioning techniques.
 <img width="2914" height="3637" alt="image" src="https://github.com/user-attachments/assets/e17e5cda-09d1-4545-ae6e-6fdcce454a6c" />
 Project URL - https://roadmap.sh/projects/testimonial-cards
 5) In this project, you are required to create a simple datepicker UI using only HTML and CSS. It will not be a functional datepicker, but a static UI component that you can later enhance with JavaScript. The goal of this project is to help you practice positioning, layout, and styling techniques in CSS. Below is a rough mockup showing the datepicker UI you need to create.
 <img width="3341" height="1401" alt="image" src="https://github.com/user-attachments/assets/1f5e7df7-598b-40da-af51-1a4abcf9ab78" />
 Project URL - https://roadmap.sh/projects/datepicker-ui
+6) In this project, you are required to create a form UI using only HTML and CSS. The form will include fields for a full name, email, password, and confirm password, along with a button to toggle the visibility of the password text. Additionally, the form will feature a completeness progress bar and a checklist of requirements that must be met for the form to reach 100% completeness. While this version of the form won’t be functional, it will be a static UI component that can be enhanced with JavaScript in the future. The goal of this project is to not only help you practice your HTML and CSS but also to focus on creating an accessible form that is easy to use for all users, including those with disabilities. Given below is the rough mockup of the form UI that you need to create:
+<img width="2097" height="1753" alt="image" src="https://github.com/user-attachments/assets/f655dae7-ee17-49d1-a2d5-1a2fa64fab32" />
+Project URL - https://roadmap.sh/projects/accessible-form-ui
